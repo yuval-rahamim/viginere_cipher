@@ -49,7 +49,7 @@ def remove_non_letters(s):
 def crackTheCode(msg): #פריצה לצופן
     global englishLetterFreq
 
-    msg remove_non_letters(msg)
+    msg = remove_non_letters(msg)
     dup = msg
     max_size = 0
     for i in range(1, len(msg)):
